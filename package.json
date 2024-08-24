@@ -1,0 +1,21 @@
+{
+  "name": "adrianulima-theme",
+  "displayName": "adrianulima-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Adrianulima Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Adrianulima Theme-color-theme.json"
+      }
+    ]
+  }
+}
