@@ -1,8 +1,20 @@
 {
   "name": "adrianulima-theme",
+  "icon": "assets/icon.png",
   "displayName": "adrianulima-theme",
-  "description": "",
+  "description": "Adrianulima custom theme",
+  "author": "Adriano Lima",
   "version": "0.0.1",
+  "keywords": [
+    "adrianulima",
+    "react",
+    "vsc",
+    "dark",
+    "theme"
+  ],
+  "scripts": {
+    "build": "node src"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -14,7 +26,7 @@
       {
         "label": "Adrianulima Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Adrianulima Theme-color-theme.json"
+        "path": "./themes/adrianulima-color-theme.json"
       }
     ]
   }
