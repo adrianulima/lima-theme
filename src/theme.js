@@ -1,35 +1,31 @@
-const colors = {
-  background: { base: "#282828" },
-  dark: { base: "#101010", a33: "#10101033", a99: "#10101099" },
-  green: { base: "#a0f0d0", a33: "#a0f0d033" },
-  primary: {
-    base: "#a0d0f0",
-    a05: "#a0d0f005",
-    a33: "#a0d0f033",
-    a66: "#a0d0f066",
-    a99: "#a0d0f099",
-    acc: "#a0d0f0cc",
-  },
-  purple: { base: "#d0a0f0" },
-  red: { base: "#f0a0d0", a33: "#f0a0d033", a99: "#f0a0d099" },
-  secondary: {
-    base: "#90a0b0",
-    a05: "#90a0b005",
-    a33: "#90a0b033",
-    a66: "#90a0b066",
-    a99: "#90a0b099",
-    acc: "#90a0b0cc",
-  },
-  transparent: { base: "#00000000", a05: "#00000005" },
-  white: {
-    base: "#e0f0f0",
-    a05: "#e0f0f005",
-    a33: "#e0f0f033",
-    a99: "#e0f0f099",
-    acc: "#e0f0f0cc",
-  },
-  yellow: { base: "#f0d0a0", a33: "#f0d0a033", a99: "#f0d0a099" },
+const addAlphaColors = (colors) => {
+  return Object.keys(colors).reduce((acc, color) => {
+    return {
+      ...acc,
+      [color]: {
+        base: colors[color],
+        a05: colors[color].slice(0, 7) + "05",
+        a33: colors[color].slice(0, 7) + "33",
+        a66: colors[color].slice(0, 7) + "66",
+        a99: colors[color].slice(0, 7) + "99",
+        acc: colors[color].slice(0, 7) + "cc",
+      },
+    };
+  }, {});
 };
+
+const colors = addAlphaColors({
+  background: "#282828",
+  dark: "#101010",
+  green: "#a0f0d0",
+  primary: "#a0d0f0",
+  purple: "#d0a0f0",
+  red: "#f0a0d0",
+  secondary: "#90a0b0",
+  transparent: "#00000000",
+  white: "#e0f0f0",
+  yellow: "#f0d0a0",
+});
 
 const scopesByColor = {
   [colors.primary.base]: [
@@ -765,7 +761,6 @@ const settingsByColor = {
 };
 
 module.exports = {
-  colors,
   settingsByColor,
   scopesByColor,
 };
