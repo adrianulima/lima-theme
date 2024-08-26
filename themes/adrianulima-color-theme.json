@@ -5,16 +5,16 @@
     "activityBar.activeBorder": "#e0f0f099",
     "activityBar.background": "#282828",
     "activityBar.dropBorder": "#e0f0f099",
-    "activityBar.foreground": "#e0f0f099",
+    "activityBar.foreground": "#e0f0f0",
     "activityBar.inactiveForeground": "#e0f0f099",
-    "activityBarBadge.background": "#e0f0f0cc",
+    "activityBarBadge.background": "#10101033",
     "activityBarBadge.foreground": "#e0f0f099",
     "activityBarTop.activeBorder": "#e0f0f099",
     "activityBarTop.background": "#282828",
     "activityBarTop.dropBorder": "#e0f0f099",
-    "activityBarTop.foreground": "#e0f0f099",
+    "activityBarTop.foreground": "#e0f0f0",
     "activityBarTop.inactiveForeground": "#e0f0f099",
-    "badge.background": "#90a0b0",
+    "badge.background": "#10101033",
     "badge.foreground": "#e0f0f0",
     "breadcrumb.activeSelectionForeground": "#e0f0f0",
     "breadcrumb.background": "#00000000",
@@ -129,7 +129,6 @@
     "editorLightBulbAutoFix.foreground": "#a0d0f0",
     "editorLineNumber.activeForeground": "#90a0b099",
     "editorLineNumber.foreground": "#00000000",
-    "editorLink.activeForeground": "#a0d0f0",
     "editorMarkerNavigation.background": "#282828",
     "editorMarkerNavigationError.background": "#f0a0d0",
     "editorMarkerNavigationInfo.background": "#a0d0f0",
@@ -189,7 +188,6 @@
     "input.placeholderForeground": "#90a0b066",
     "inputOption.activeBackground": "#00000000",
     "inputOption.activeBorder": "#00000000",
-    "inputOption.activeForeground": "#e0f0f0",
     "inputValidation.errorBackground": "#282828",
     "inputValidation.errorBorder": "#f0a0d0",
     "inputValidation.errorForeground": "#f0a0d0",
@@ -271,7 +269,6 @@
     "panelSection.dropBackground": "#90a0b099",
     "panelSectionHeader.background": "#90a0b033",
     "panelTitle.activeBorder": "#e0f0f099",
-    "panelTitle.activeForeground": "#e0f0f099",
     "panelTitle.inactiveForeground": "#e0f0f099",
     "peekView.border": "#10101033",
     "peekViewEditor.background": "#90a0b005",
@@ -376,7 +373,6 @@
     "symbolIcon.variableForeground": "#a0d0f0",
     "tab.activeBackground": "#00000000",
     "tab.activeBorder": "#e0f0f099",
-    "tab.activeForeground": "#e0f0f099",
     "tab.activeModifiedBorder": "#a0d0f0",
     "tab.border": "#00000000",
     "tab.inactiveBackground": "#282828",
@@ -426,7 +422,6 @@
     "textBlockQuote.background": "#90a0b005",
     "textBlockQuote.border": "#a0d0f099",
     "textCodeBlock.background": "#10101033",
-    "textLink.activeForeground": "#a0d0f0",
     "textLink.foreground": "#a0d0f0",
     "textPreformat.foreground": "#e0f0f0",
     "textSeparator.foreground": "#e0f0f033",
@@ -443,6 +438,28 @@
     "widget.shadow": "#10101033"
   },
   "tokenColors": [
+    {
+      "scope": [
+        "constant.character",
+        "constant.escape",
+        "constant.language",
+        "constant.numeric",
+        "constant.other.key",
+        "constant.other.symbol",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key string.unquoted.label",
+        "source.sass keyword.control",
+        "string",
+        "string.quoted.double punctuation",
+        "string.quoted.single punctuation",
+        "string.template punctuation",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#a0f0d0"
+      }
+    },
     {
       "scope": [
         "*link*",
@@ -545,100 +562,6 @@
     },
     {
       "scope": [
-        "entity.other.attribute-name",
-        "log.verbose",
-        "markup.bold markup.italic string",
-        "markup.bold markup.italic",
-        "markup.bold string",
-        "markup.bold",
-        "markup.deleted",
-        "markup.inline.raw.string.markdown",
-        "markup.italic markup.bold string",
-        "markup.italic markup.bold",
-        "markup.italic",
-        "markup.quote markup.bold string",
-        "markup.quote markup.bold",
-        "markup.raw.block.fenced.markdown",
-        "markup.underline",
-        "meta.definition.property entity.name.function",
-        "meta.diff.header.from-file",
-        "meta.separator",
-        "meta.separator.markdown",
-        "meta.tag.attributes keyword.operator.assignment",
-        "punctuation.definition.fenced.markdown",
-        "punctuation.definition.from-file.diff",
-        "punctuation.section.embedded",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "variable.object.property"
-      ],
-      "settings": {
-        "foreground": "#90a0b0"
-      }
-    },
-    {
-      "scope": [
-        "constant.other.color",
-        "constant.other.color",
-        "constant.other.placeholder",
-        "entity.name",
-        "entity.name.section.markdown",
-        "keyword.other.substitution",
-        "keyword.other.template",
-        "markdown.heading",
-        "markup.changed.git_gutter",
-        "markup.heading | markup.heading entity.name",
-        "markup.heading.markdown punctuation.definition.heading.markdown",
-        "markup.heading.text.1.markdown",
-        "markup.heading.text.2.markdown",
-        "meta.definition.variable variable.other.constant",
-        "meta.definition.variable variable.other.readwrite",
-        "meta.object-literal.key-meta.object.member",
-        "meta.object.member",
-        "meta.objectliteral",
-        "meta.tag",
-        "meta.use.php",
-        "punctuation.definition.list_item.markdown",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-        "string.unquoted",
-        "support.other.namespace.php",
-        "support.other.namespace.use.php",
-        "support.type.object",
-        "support.type.sys-types",
-        "support.variable.property",
-        "text.html.derivative",
-        "text.html.markdown",
-        "token.debug-token",
-        "variable - meta.import",
-        "variable.other",
-        "variable.other.object",
-        "variable.other.object.property",
-        "variable.other.property",
-        "variable.other.readwrite",
-        "variable.parameter"
-      ],
-      "settings": {
-        "foreground": "#e0f0f0"
-      }
-    },
-    {
-      "scope": [
-        "comment",
-        "keyword.operator",
-        "keyword.operator.existential",
-        "meta.brace",
-        "meta.paragraph.markdown",
-        "meta.parameters comment.block",
-        "punctuation",
-        "punctuation.definition.comment"
-      ],
-      "settings": {
-        "foreground": "#e0f0f099"
-      }
-    },
-    {
-      "scope": [
         "keyword",
         "keyword.control",
         "keyword.control.as",
@@ -676,28 +599,6 @@
     },
     {
       "scope": [
-        "constant.character",
-        "constant.escape",
-        "constant.language",
-        "constant.numeric",
-        "constant.other.key",
-        "constant.other.symbol",
-        "markup.heading",
-        "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key string.unquoted.label",
-        "source.sass keyword.control",
-        "string",
-        "string.quoted.double punctuation",
-        "string.quoted.single punctuation",
-        "string.template punctuation",
-        "support.constant"
-      ],
-      "settings": {
-        "foreground": "#a0f0d0"
-      }
-    },
-    {
-      "scope": [
         "constant.language.boolean.false",
         "constant.language.null",
         "constant.language.undefined",
@@ -715,6 +616,106 @@
       ],
       "settings": {
         "foreground": "#f0a0d0"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "log.verbose",
+        "markup.bold markup.italic string",
+        "markup.bold markup.italic",
+        "markup.bold string",
+        "markup.bold",
+        "markup.deleted",
+        "markup.inline.raw.string.markdown",
+        "markup.italic markup.bold string",
+        "markup.italic markup.bold",
+        "markup.italic",
+        "markup.quote markup.bold string",
+        "markup.quote markup.bold",
+        "markup.raw.block.fenced.markdown",
+        "markup.underline",
+        "meta.definition.property entity.name.function",
+        "meta.diff.header.from-file",
+        "meta.separator",
+        "meta.separator.markdown",
+        "meta.tag.attributes keyword.operator.assignment",
+        "punctuation.definition.fenced.markdown",
+        "punctuation.definition.from-file.diff",
+        "punctuation.section.embedded",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "variable.object.property"
+      ],
+      "settings": {
+        "foreground": "#90a0b0"
+      }
+    },
+    {
+      "scope": [
+        "comment",
+        "keyword.operator",
+        "keyword.operator.existential",
+        "meta.brace",
+        "meta.paragraph.markdown",
+        "meta.parameters comment.block",
+        "punctuation",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#e0f0f099"
+      }
+    },
+    {
+      "scope": [
+        "activityBar.activeForeground",
+        "constant.other.color",
+        "constant.other.color",
+        "constant.other.placeholder",
+        "editorLink.activeForeground",
+        "entity.name",
+        "entity.name.section.markdown",
+        "inputOption.activeForeground",
+        "keyword.other.substitution",
+        "keyword.other.template",
+        "markdown.heading",
+        "markup.changed.git_gutter",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "markup.heading.text.1.markdown",
+        "markup.heading.text.2.markdown",
+        "meta.definition.variable variable.other.constant",
+        "meta.definition.variable variable.other.readwrite",
+        "meta.object-literal.key-meta.object.member",
+        "meta.object.member",
+        "meta.objectliteral",
+        "meta.tag",
+        "meta.use.php",
+        "panelTitle.activeForeground",
+        "punctuation.definition.list_item.markdown",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "string.unquoted",
+        "support.other.namespace.php",
+        "support.other.namespace.use.php",
+        "support.type.object",
+        "support.type.sys-types",
+        "support.variable.property",
+        "tab.activeForeground",
+        "text.html.derivative",
+        "text.html.markdown",
+        "textLink.activeForeground",
+        "token.debug-token",
+        "variable - meta.import",
+        "variable.other",
+        "variable.other.object",
+        "variable.other.object.property",
+        "variable.other.property",
+        "variable.other.readwrite",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#e0f0f0"
       }
     },
     {
