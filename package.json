@@ -4,6 +4,16 @@
   "displayName": "adrianulima-theme",
   "description": "Adrianulima custom theme",
   "author": "Adriano Lima",
+  "publisher": "AdrianoLima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianulima/adrianulima-theme/issues"
+  },
+  "homepage": "https://github.com/adrianulima/adrianulima-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianulima/adrianulima-theme.git"
+  },
   "version": "0.1.0",
   "keywords": [
     "adrianulima",

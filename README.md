@@ -13,7 +13,7 @@
 
 ## Install
 
-1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Adrianulima.adrianulima-theme).
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=AdrianoLima.adrianulima-theme).
 2. Click the Install button.
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
 
