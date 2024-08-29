@@ -488,8 +488,6 @@
         "entity.other.inherited-class",
         "fenced_code.block.language",
         "keyword-meta.export",
-        "keyword.control.new",
-        "keyword.operator.new",
         "keyword.other.important",
         "markup.deleted.git_gutter",
         "markup.inline.raw.markdown",
@@ -583,8 +581,10 @@
         "keyword.control.flow",
         "keyword.control.import",
         "keyword.control.module",
+        "keyword.control.new",
         "keyword.control.trycatch",
-        "keyword.operator.expression.void",
+        "keyword.operator.expression",
+        "keyword.operator.new",
         "keyword.other",
         "keyword.other.unit",
         "keyword.type",
@@ -673,7 +673,8 @@
         "meta.paragraph.markdown",
         "meta.parameters comment.block",
         "punctuation",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#e0f0f099"
