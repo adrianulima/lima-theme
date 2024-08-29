@@ -462,6 +462,18 @@
     },
     {
       "scope": [
+        "meta.block meta.var.expr meta.function-call entity.name.function",
+        "meta.class meta.field.declaration meta.function-call entity.name.function",
+        "source meta.function-call entity.name.function",
+        "source meta.function-call entity.name.function",
+        "source meta.method-call entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#a0d0f0cc"
+      }
+    },
+    {
+      "scope": [
         "*link*",
         "*uri*",
         "*url*",
@@ -488,10 +500,8 @@
         "markup.raw.block",
         "markup.table",
         "markup.underline.link.markdown",
-        "meta.block meta.var.expr meta.function-call entity.name.function",
         "meta.class entity.name.class",
         "meta.class entity.name.type.class",
-        "meta.class meta.field.declaration meta.function-call entity.name.function",
         "meta.class meta.function-call variable.function",
         "meta.class meta.group.braces.curly meta.function-call variable.function",
         "meta.function-call support.function",
@@ -515,9 +525,6 @@
         "punctuation.definition.tag",
         "punctuation.definition.tag.html",
         "punctuation.separator.inheritance.php",
-        "source meta.function-call entity.name.function",
-        "source meta.function-call entity.name.function",
-        "source meta.method-call entity.name.function",
         "source.cpp meta.block variable.other",
         "source.css support.type.property-name",
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
@@ -689,6 +696,7 @@
         "meta.object.member",
         "meta.objectliteral",
         "meta.tag",
+        "meta.type.declaration entity.name.function",
         "meta.use.php",
         "panelTitle.activeForeground",
         "punctuation.definition.list_item.markdown",
