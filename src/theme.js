@@ -15,15 +15,15 @@ const addAlphaColors = (colors) => {
 };
 
 const colors = addAlphaColors({
-  background: "#282828",
+  background: "#222428",
   dark: "#101010",
-  green: "#a0f0d0",
-  primary: "#a0d0f0",
-  purple: "#d0a0f0",
-  red: "#f0a0d0",
+  green: "#80f0d0",
+  primary: "#80d0f0",
+  purple: "#d080f0",
+  red: "#f080d0",
   transparent: "#00000000",
   white: "#e0f0f0",
-  yellow: "#f0d0a0",
+  yellow: "#f0d080",
 });
 
 const settingsByColor = {
@@ -66,8 +66,6 @@ const settingsByColor = {
     "welcomePage.tileBackground",
   ],
   [colors.dark.a33]: [
-    "activityBarBadge.background",
-    "badge.background",
     "editorSuggestWidget.selectedBackground",
     "notebookScrollbarSlider.background",
     "peekView.border",
@@ -159,6 +157,8 @@ const settingsByColor = {
     "peekViewTitleDescription.foreground",
   ],
   [colors.primary.a99]: [
+    "activityBarBadge.background",
+    "badge.background",
     "button.secondaryBackground",
     "charts.lines",
     "debugTokenExpression.value",
@@ -405,7 +405,6 @@ const settingsByColor = {
     "activityBar.activeBorder",
     "activityBar.dropBorder",
     "activityBar.inactiveForeground",
-    "activityBarBadge.foreground",
     "activityBarTop.activeBorder",
     "activityBarTop.dropBorder",
     "activityBarTop.inactiveForeground",
@@ -443,6 +442,7 @@ const settingsByColor = {
   ],
   [colors.white.base]: [
     "activityBar.foreground",
+    "activityBarBadge.foreground",
     "activityBarTop.foreground",
     "badge.foreground",
     "breadcrumb.activeSelectionForeground",
