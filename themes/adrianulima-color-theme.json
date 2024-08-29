@@ -82,12 +82,11 @@
     "editor.background": "#282828",
     "editor.findMatchBackground": "#a0d0f033",
     "editor.findMatchBorder": "#a0d0f0",
-    "editor.findMatchHighlightBackground": "#a0d0f033",
     "editor.findRangeHighlightBackground": "#a0d0f033",
     "editor.focusedStackFrameHighlightBackground": "#a0f0d033",
     "editor.foldBackground": "#a0d0f005",
     "editor.foreground": "#e0f0f099",
-    "editor.hoverHighlightBackground": "#a0d0f033",
+    "editor.hoverHighlightBackground": "#a0d0f005",
     "editor.inactiveSelectionBackground": "#a0d0f033",
     "editor.lineHighlightBackground": "#a0d0f033",
     "editor.lineHighlightBorder": "#00000000",
@@ -564,6 +563,14 @@
       ],
       "settings": {
         "foreground": "#a0d0f0"
+      }
+    },
+    {
+      "scope": [
+        "editor.findMatchHighlightBackground"
+      ],
+      "settings": {
+        "foreground": "#d0a0f099"
       }
     },
     {

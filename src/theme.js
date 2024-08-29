@@ -88,6 +88,7 @@ const settingsByColor = {
   ],
   [colors.primary.a05]: [
     "editor.foldBackground",
+    "editor.hoverHighlightBackground",
     "peekViewEditor.background",
     "peekViewEditorGutter.background",
     "peekViewResult.background",
@@ -102,9 +103,7 @@ const settingsByColor = {
     "diffEditor.diagonalFill",
     "diffEditor.insertedTextBackground",
     "editor.findMatchBackground",
-    "editor.findMatchHighlightBackground",
     "editor.findRangeHighlightBackground",
-    "editor.hoverHighlightBackground",
     "editor.inactiveSelectionBackground",
     "editor.lineHighlightBackground",
     "editor.selectionBackground",
@@ -620,6 +619,7 @@ const scopesByColor = {
     "variable.other.constant.object",
     "variable.other.readwrite.alias",
   ],
+  [colors.purple.a99]: ["editor.findMatchHighlightBackground"],
   [colors.purple.base]: [
     "keyword",
     "keyword.control",
