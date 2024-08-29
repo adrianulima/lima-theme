@@ -53,6 +53,5 @@ Run the project locally:
 ```bash
 git clone https://github.com/adrianulima/adrianulima-theme.git
 cd adrianulima-theme
-npm install
 npm run build
 ```
