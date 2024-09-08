@@ -30,13 +30,8 @@ You can experiment each setting individually to find the best balance for your w
   "window.commandCenter": false,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "none",
-  "editor.renderWhitespace": "none",
   "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairsHorizontal": false,
-  "editor.guides.highlightActiveBracketPair": false,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.verticalScrollbarSize": 8,
   "editor.semanticHighlighting.enabled": false
 }
 ```
