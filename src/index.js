@@ -35,7 +35,7 @@ function generateScopes(scopesByColor) {
 }
 
 const content = `{
-  "name": "Adrianulima Theme",
+  "name": "Lima Theme",
   "type": "dark",
   "colors": {
     ${generateSettings(settingsByColor)}
@@ -45,7 +45,7 @@ const content = `{
   ]
 }`;
 
-const filePath = path.join(__dirname, `../themes/adrianulima-color-theme.json`);
+const filePath = path.join(__dirname, `../themes/lima-theme.json`);
 fs.writeFileSync(filePath, content);
 
 console.log("Theme generated!");

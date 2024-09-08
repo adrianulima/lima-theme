@@ -1,4 +1,11 @@
-# adrianulima-theme Changelog
+# lima-theme Changelog
+
+## 0.5.0
+
+- Renamed theme to Lima Theme
+- Added custom icon
+- Added back the numbers in the editor gutter, but with low opacity
+- Reduced opacity of Scrollbar, Overview Ruler and Current line highlight
 
 ## 0.4.0
 

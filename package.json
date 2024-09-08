@@ -1,23 +1,23 @@
 {
   "name": "adrianulima-theme",
-  "icon": "assets/adrianulima-theme-icon.png",
-  "displayName": "adrianulima-theme",
-  "description": "Adrianulima custom theme",
+  "icon": "assets/lima-theme-icon.png",
+  "displayName": "Lima Theme",
+  "description": "Lima's custom theme with minimalist style",
   "author": "Adriano Lima",
   "publisher": "AdrianoLima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adrianulima/adrianulima-theme/issues"
+    "url": "https://github.com/adrianulima/lima-theme/issues"
   },
-  "homepage": "https://github.com/adrianulima/adrianulima-theme#readme",
+  "homepage": "https://github.com/adrianulima/lima-theme#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrianulima/adrianulima-theme.git"
+    "url": "git+https://github.com/adrianulima/lima-theme.git"
   },
   "version": "0.4.0",
   "keywords": [
     "adrianulima",
-    "react",
+    "lima",
     "vsc",
     "dark",
     "theme"
@@ -34,9 +34,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Adrianulima Theme",
+        "label": "Lima Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/adrianulima-color-theme.json"
+        "path": "./themes/lima-theme.json"
       }
     ]
   }

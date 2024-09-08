@@ -1,6 +1,6 @@
-# Adrianulima Color Theme
+# Lima Color Theme for VSCode
 
-![adrianulima-theme-preview](https://github.com/adrianulima/adrianulima-theme/blob/main/assets/adrianulima-theme-preview.png?raw=true)
+![lima-theme-preview](https://github.com/adrianulima/lima-theme/blob/main/assets/lima-theme-preview.png?raw=true)
 
 ## Features
 
@@ -19,6 +19,8 @@
 
 ## Recommended User Settings for minimal style [Optional]
 
+You can experiment each setting individually to find the best balance for your workflow.
+
 ```json
 {
   "workbench.colorTheme": "adrianulima-theme",
@@ -26,7 +28,6 @@
   "window.customTitleBarVisibility": "never",
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
-  "editor.folding": false,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.renderLineHighlight": "none",
@@ -51,7 +52,7 @@ This is a personal theme, so I'm not going to accept PRs with changes to the the
 Run the project locally:
 
 ```bash
-git clone https://github.com/adrianulima/adrianulima-theme.git
-cd adrianulima-theme
+git clone https://github.com/adrianulima/lima-theme.git
+cd lima-theme
 npm run build
 ```
