@@ -4,6 +4,7 @@
 
 - Added a color for the list selection highlight
 - Added a color for the status bar border
+- Added a color for the title bar border
 
 ## 0.5.0
 

@@ -105,6 +105,7 @@ const settingsByColor = {
     "statusBar.border",
     "terminal.border",
     "textBlockQuote.background",
+    "titleBar.border",
   ],
   [colors.primary.a33]: [
     "button.background",

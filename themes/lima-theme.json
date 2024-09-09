@@ -428,6 +428,7 @@
     "textSeparator.foreground": "#e0f0f033",
     "titleBar.activeBackground": "#222428",
     "titleBar.activeForeground": "#80d0f0cc",
+    "titleBar.border": "#80d0f010",
     "titleBar.inactiveBackground": "#222428",
     "titleBar.inactiveForeground": "#80d0f0cc",
     "tree.indentGuidesStroke": "#80d0f033",
