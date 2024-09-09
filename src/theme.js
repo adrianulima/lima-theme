@@ -1,30 +1,34 @@
-const addAlphaColors = (colors) => {
+const { blendColors } = require("./utils");
+
+const addDarkerColors = (bgColor, colors) => {
   return Object.keys(colors).reduce((acc, color) => {
     return {
       ...acc,
       [color]: {
         base: colors[color],
-        a10: colors[color].slice(0, 7) + "10",
-        a33: colors[color].slice(0, 7) + "33",
-        a66: colors[color].slice(0, 7) + "66",
-        a99: colors[color].slice(0, 7) + "99",
-        acc: colors[color].slice(0, 7) + "cc",
+        a10: blendColors(bgColor, colors[color], 0x10 / 0xff),
+        a33: blendColors(bgColor, colors[color], 0x33 / 0xff),
+        a66: blendColors(bgColor, colors[color], 0x66 / 0xff),
+        a99: blendColors(bgColor, colors[color], 0x99 / 0xff),
+        acc: blendColors(bgColor, colors[color], 0xcc / 0xff),
       },
     };
   }, {});
 };
 
-const colors = addAlphaColors({
-  background: "#222428",
-  dark: "#101010",
-  green: "#80f0d0",
-  primary: "#80d0f0",
-  purple: "#d080f0",
-  red: "#f080d0",
-  transparent: "#00000000",
-  white: "#e0f0f0",
-  yellow: "#f0d080",
-});
+const colors = {
+  transparent: { base: "#00000000", a10: "#00000010" },
+  background: { base: "#222428" },
+  ...addDarkerColors("#222428", {
+    dark: "#101010",
+    green: "#80f0d0",
+    primary: "#80d0f0",
+    purple: "#d080f0",
+    red: "#f080d0",
+    white: "#e0f0f0",
+    yellow: "#f0d080",
+  }),
+};
 
 const settingsByColor = {
   [colors.background.base]: [
