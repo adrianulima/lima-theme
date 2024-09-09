@@ -5,11 +5,10 @@
 ## Features
 
 - Minimal color scheme for simplicity
-- Borderless editor and panels for a clean interface
-- Line numbers displayed only for the current line
+- Thin border editor and panels for a clean interface
+- Line numbers and scrollbars with little opacity
 - Indentation guides only for the current block
-- No active line highlighting for a distraction-free experience
-- Background color seamlessly integrates with macOS Dark Mode
+- Mostly distraction-free experience
 
 ## Install
 
