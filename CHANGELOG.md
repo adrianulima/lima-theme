@@ -1,4 +1,9 @@
-# lima-theme Changelog
+# Lima Theme Changelog
+
+## 0.6.0
+
+- Added a color for the list selection highlight
+- Added a color for the status bar border
 
 ## 0.5.0
 
