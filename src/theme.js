@@ -14,17 +14,19 @@ const addAlphaColors = (colors) => {
   }, {});
 };
 
-const colors = addAlphaColors({
-  background: "#222428",
-  dark: "#101010",
-  green: "#80f0d0",
-  primary: "#80d0f0",
-  purple: "#d080f0",
-  red: "#f080d0",
-  transparent: "#00000000",
-  white: "#e0f0f0",
-  yellow: "#f0d080",
-});
+const colors = {
+  ...addAlphaColors({
+    background: "#222428",
+    dark: "#121418",
+    green: "#80f0d0",
+    primary: "#80d0f0",
+    purple: "#d080f0",
+    red: "#f080d0",
+    white: "#e0f0f0",
+    yellow: "#f0d080",
+  }),
+  transparent: { base: "#00000000", a10: "#22242810" }, // Some tokens doesn't accept transparent colors
+};
 
 const settingsByColor = {
   [colors.background.base]: [
@@ -37,10 +39,8 @@ const settingsByColor = {
     "editorGroupHeader.noTabsBackground",
     "editorGroupHeader.tabsBackground",
     "editorGutter.background",
-    "editorHoverWidget.background",
     "editorMarkerNavigation.background",
     "editorPane.background",
-    "editorSuggestWidget.background",
     "editorWidget.background",
     "inputValidation.errorBackground",
     "menu.background",
@@ -76,7 +76,11 @@ const settingsByColor = {
     "editorUnnecessaryCode.opacity",
     "statusBarItem.prominentBackground",
   ],
-  [colors.dark.base]: ["editorHoverWidget.statusBarBackground"],
+  [colors.dark.base]: [
+    "editorHoverWidget.statusBarBackground",
+    "editorHoverWidget.background",
+    "editorSuggestWidget.background",
+  ],
   [colors.green.a33]: ["editor.focusedStackFrameHighlightBackground"],
   [colors.green.base]: [
     "charts.green",

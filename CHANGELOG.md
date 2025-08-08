@@ -1,5 +1,9 @@
 # Lima Theme Changelog
 
+## 0.6.1
+
+- Darken a little bit the hover widget background and the suggestion widget background
+
 ## 0.6.0
 
 - Added a color for the list selection highlight
